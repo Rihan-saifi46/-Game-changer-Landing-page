@@ -5,6 +5,11 @@ Shery.makeMagnet(".beech>img" /* Element to target.*/, {
     ease: "cubic-bezier(23, 1, 1.320, 1)",
     duration: .5,
   });
+Shery.makeMagnet(".hleft>button" /* Element to target.*/, {
+    //Parameters are optional.
+    ease: "cubic-bezier(23, 1, 1.320, 1)",
+    duration: .5,
+  });
   Shery.mouseFollower({
     //Parameters are optional.
     skew: true,
