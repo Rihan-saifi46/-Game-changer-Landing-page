@@ -1,0 +1,91 @@
+*{
+    padding: 0; margin: 0; box-sizing: border-box; font-family: "gilroy";
+}
+@font-face {
+    font-family: kajiro ;
+    src: url(font/KajiroBold.ttf);
+}
+.main{
+    height: 100vh; width: 100%;  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.back{
+   overflow: hidden; position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; pointer-events: all;
+    height: 100%;
+    z-index: -1;
+}
+.back>img{
+    height: 100%;width: 100%; object-fit: cover; z-index: -1;
+}
+.top{
+    height: 100vh; width: 98.5vw; 
+    display: flex; flex-direction: column; align-items: center;  position: relative; /* Change from absolute to relative */
+    z-index: 1; 
+  
+}
+.nav{
+    display: flex; width: 100%;  padding: 1vw 3vw; display: flex; justify-content: space-between;
+}
+.left{
+    width: 30%; display: flex; justify-content: space-evenly;align-items: center;
+    color: white; text-transform: capitalize;
+    font-weight: 400; font-size: 1.3vw; 
+}
+.left>span{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.left>img{
+    height: 4vw; color: white; 
+}
+.right{
+    width: 20%;  color: white;
+    display: flex; align-items: center; gap: 2vw;
+}
+.right>span{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-transform: capitalize; font-weight: 400; font-size: 1.3vw;
+} 
+.hero{
+    width: 90%; height: 80vh; display: flex;
+    justify-content: space-between; align-items: flex-end;
+}
+.hleft{
+    width: 40%;  color: white;
+}
+.elem{
+    height: 7.5vw; overflow: hidden; 
+   
+}
+.elem>h1{
+     font-weight: 100; font-size: 8vw; 
+    line-height: 1; 
+}
+.hleft>button{
+    background-color: none; border: none; padding: 1vw 3vw ;
+    font-size: 1.8vw; font-weight: 600;  border-radius: 5px;
+    text-transform: capitalize; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 1.9vw .1vw;
+}
+.hright{
+    width: 35%; height: 32vw; color: white;
+    display: flex; flex-direction: column; gap: 1.3vw; align-items: flex-end;
+}
+.hright>p:nth-child(1){
+   font-size: 1.3vw; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hright>p:nth-child(3){
+   font-size: 1.3vw; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hright>p:nth-child(4){
+   font-size: 1.3vw; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.beech{
+    height: 27vh; width: 65%;  border-radius: 10px;
+}
+.beech>img{
+    height: 100%; width: 100%; object-fit: cover;
+}
